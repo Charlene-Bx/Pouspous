@@ -1,0 +1,31 @@
+{
+  "id": "text_image_bloc",
+  "type": "SharedSlice",
+  "name": "TextImageBloc",
+  "description": "TextImageBloc",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "image": {
+          "type": "Image",
+          "config": { "label": "image", "constraint": {}, "thumbnails": [] }
+        },
+        "text": {
+          "type": "Text",
+          "config": { "label": "text", "placeholder": "" }
+        },
+        "caption": {
+          "type": "Text",
+          "config": { "label": "caption", "placeholder": "" }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
